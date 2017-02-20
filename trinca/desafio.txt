@@ -1,0 +1,26 @@
+Desafio Trinca
+
+Protótipo: http://tinyurl.com/zn8ncg3
+
+
+
+·         Incluir um novo churrasco com data, descrição e observações adicionais;
+·         Adicionar e remover participantes (colocando o seu valor de contribuição);
+·         Colocar um valor sugerido por usuário de contribuição (valor com e sem bebida inclusa);
+·         Visualizar os detalhes do churrasco, total de participantes e valor arrecadado.
+
+
+page 0 = inclui um novo participante
+
+page 1 = inclui um novo churrasco
+
+page 2 = exibi o churras com descrição o dia  e 
+	o numero de participante 
+	valor a ser arrecadado  
+	valor ja pago
+	 tottal de bebuns e saudaveis
+
+page 3 = Exibi a lista de participantes 
+	nota:(nesta lista exibi uma observação de cada participante, porém na page 0 nao existe um campo de observação)
+
+page 4  = Exibi todos os churras ocorridos

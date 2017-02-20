@@ -1,0 +1,101 @@
+body{
+	background-color: white;
+}		
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+a{
+	font-family: "Lato", sans-serif;
+}
+header{
+	background-color: black;
+	margin: 1px 1px ;	
+}
+footer{
+	background-color: black;
+	margin: 0px 0px;	
+	padding: 30px 20px;
+}
+.container-principal{	
+	max-width: 900px;
+	background: #e4e4e4
+;
+	font-family: sans-serif;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5px;
+}
+h1{
+	color: black;
+	font-family: "Lato", sans-serif;
+	text-align: center;
+}
+h2{
+	color: white;
+	font-family: "Lato", sans-serif;
+	text-align: center;
+}
+.botao1{
+	text-decoration: none;
+	display: inline-block;
+	background: #3D87F5;
+	color: white;
+	padding: 10px 50px 10px; 
+	border-radius: 5px;
+}
+.cta{
+	text-align: center;
+	margin: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tbody, thead{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #370037;
+    color: white;
+}

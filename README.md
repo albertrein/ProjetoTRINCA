@@ -1,5 +1,5 @@
 # ProjetoTRINCA
-Sistema de gerenciamento de churras.
+Sistema de gerenciamento de eventos.
 
 Desafio Trinca
 
